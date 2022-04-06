@@ -1,4 +1,4 @@
-# Welcome to our data science project page!
+# Welcome to our data science project page!:wave:
 
 
 ## About this project
@@ -28,7 +28,7 @@ Based on a given set of data, we would like to predict the likelihood of getting
 # Conclusion
 
 ## What did we learn from this project?
-- How to find a good dataset(:sob:)
+- How to find a good dataset:sob:
     * [some datasets mainly had categorical variables](https://www.kaggle.com/datasets/shivamb/netflix-shows)
     * [others had too many obscure data that was only applicable to cardiovascular disease](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 - Heart disease is the leading cause of death 
@@ -36,11 +36,11 @@ Based on a given set of data, we would like to predict the likelihood of getting
 - Some machine learning models take very long(a few min) to learn compared to others(a few seconds)
 - how to use hyperparameter tuning in XGBoost
 - how to use 2 different datasets(stroke and heart disease) to come up with better insights
--
--
+
 
 ## Data sets used
-https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
+https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
 https://www.kaggle.com/fedesoriano/stroke-prediction-dataset 
 
 ## Other references
+https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
