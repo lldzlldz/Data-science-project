@@ -29,17 +29,13 @@ Based on a given set of data, we would like to predict the likelihood of getting
 
 ## What did we learn from this project?
 - How to find a good dataset:sob:
-    - [some datasets mainly had categorical variables](https://www.kaggle.com/datasets/shivamb/netflix-shows)
-    - [others had too many obscure data that was only applicable to cardiovascular disease](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+    * [some datasets mainly had categorical variables](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+    * [others had too many obscure data that was only applicable to cardiovascular disease](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 - Heart disease is the leading cause of death 
-    - Learnt some new terms like systolic blood pressure and diastolic blood pressure 
 - How to implement the different machine learning models(Binary Classification, Random Forest, Logistic Regression, XGBoost)
-    - How to use hyperparameter tuning in XGBoost
-    - Different machine learning models are better suited for different types of data
-    - Some machine learning models take very long(a few min) to learn compared to others(a few seconds)
-- How to use 2 different datasets(stroke and heart disease) to come up with better insights
-    - How to find a dataset for both stroke and heart disease that has health data we can work with(eg height, weight, age, glucose level) instead of data specific to one dataset(eg exercise induced angina, the slope of the peak exercise ST segment)
-- How to work with other people 
+    - how to use hyperparameter tuning in XGBoost
+- Some machine learning models take very long(a few min) to learn compared to others(a few seconds)
+- how to use 2 different datasets(stroke and heart disease) to come up with better insights
 
 ## Data sets used
 https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
@@ -47,4 +43,3 @@ https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 
 ## Other references
 https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
-https://www.cdc.gov/stroke/risk_factors.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fstroke%2Fconditions.htm
