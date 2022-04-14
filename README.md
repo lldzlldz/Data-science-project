@@ -9,7 +9,7 @@ This is a mini-project for SC1015. We will be using data based on information ab
 
 - @Sele3 
 - @lldzlldz 
-- @
+- @Awon001
 
 ## Context
 According to the World Health Organization, the world’s biggest killer is ischaemic heart disease, responsible for 16% of the world’s total deaths. Since 2000, the largest increase in deaths has been for this disease, rising by more than 2 million to 8.9 million deaths in 2019. Stroke and chronic obstructive pulmonary disease are the 2nd and 3rd leading causes of death, responsible for approximately 11% and 6% of total deaths respectively.
