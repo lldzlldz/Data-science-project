@@ -33,13 +33,22 @@ Based on a given set of data, we would like to predict the likelihood of getting
     - [others had too many obscure data that was only applicable to cardiovascular disease](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 - Heart disease is the leading cause of death 
     - Learnt some new terms like systolic blood pressure and diastolic blood pressure 
+- How to use 2 different datasets(stroke and heart disease) to come up with better insights
+    - How to find a dataset for both stroke and heart disease that has health data we can work with(eg height, weight, age, glucose level) instead of data specific to one dataset(eg exercise induced angina, the slope of the peak exercise ST segment)
+
+## Addtional things that we learnt beyond this course
 - How to implement the different machine learning models(Binary Classification, Random Forest, Logistic Regression, XGBoost)
     - How to use hyperparameter tuning in XGBoost
     - Different machine learning models are better suited for different types of data
     - Some machine learning models take very long(a few min) to learn compared to others(a few seconds)
-- How to use 2 different datasets(stroke and heart disease) to come up with better insights
-    - How to find a dataset for both stroke and heart disease that has health data we can work with(eg height, weight, age, glucose level) instead of data specific to one dataset(eg exercise induced angina, the slope of the peak exercise ST segment)
-- How to work with other people 
+- We learnt about hypothesis testing (Chi-squared test)
+    - Chi-squared test can be used to determine whether there is a relationship between categorical variables
+    - We define the null hypothesis (H0) and alternative hyperpothesis (H1), then subsequently run a chi-squared test on the data
+    - If the p-value is below the significance level of 0.05, then we reject the null hypothesis and accept the alternative hypothesis
+- We also learnt about forming causality models using Bayesian Networks (bnlearn)
+    - We can use directed acrylic graphs to represent relationship between variables
+    - A directed edge E(V, W) indicates that W is conditionally dependent on V
+    - We can subsequently calcuate conditional probabilty on our model to determine whether there may be a causal relationship
 
 ## Data sets used
 - https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
