@@ -1,3 +1,51 @@
+def minimax(board, maxSymbol, minSymbol, depth, isMaximizing):
+    ''' Minimax algorithm for the recursion
+    '''
+    # Terminal conditions for recursion
+    # Fill in the missing conditions to stop the recursion
+    if (isWinner(board, maxSymbol)):
+        return 10
+    elif (isWinner(board, minSymbol)):
+        return -10
+    elif isBoardFull(board):
+        return 0
+    # You may use the isWinner and isBoardFull functions if you want
+    
+    # Keep track of scores at this depth
+    scores = []
+    available = [position for position, value in board.items() if value == " "]
+    
+    # Go through all available positions
+    for space in available:
+    # Fill in all the missing pieces in this code segment
+        # Simulate the appropriate move
+        if (isMaximizing):
+            board[space] = minSymbol
+        else:
+            board[space] = maxSymbol
+        # Find the score for the move
+        scores.append(minimax(board, maxSymbol, minSymbol, depth+1, not isMaximizing))
+        # Undo the move for simulation
+        board[space] = " "
+            
+    # Return max or min as per the level
+    # Fill in the return logic for recursion as per level
+    if(isMaximizing):
+        return max(scores)
+    else:
+        return min(scores)
+    
+    # Remove the following exception when you complete this function
+    #raise NotImplementedError
+3
+4
+0 1 1 1
+1 0 1 0
+1 1 0 1
+1 0 1 0
+2FA is a security feature that forces users to provide at least 2 proofs of authentication to login.
+
+
 # Welcome to our data science project page!:wave:
 
 
@@ -42,9 +90,15 @@ Based on a given set of data, we would like to predict the likelihood of getting
 - How to work with other people 
 
 ## Data sets used
-https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
-https://www.kaggle.com/fedesoriano/stroke-prediction-dataset 
+- https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
+- https://www.kaggle.com/fedesoriano/stroke-prediction-dataset 
 
 ## Other references
-https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
-https://www.cdc.gov/stroke/risk_factors.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fstroke%2Fconditions.htm
+- https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
+- https://www.cdc.gov/stroke/risk_factors.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fstroke%2Fconditions.htm
+- https://builtin.com/data-science/random-forest-algorithm
+- https://learn.g2.com/logistic-regression
+- https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
+- https://towardsdatascience.com/why-random-forest-is-my-favorite-machine-learning-model-b97651fa3706
+- https://scikit-learn.org/stable/modules/tree.html#
+
