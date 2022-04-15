@@ -42,9 +42,14 @@ Based on a given set of data, we would like to predict the likelihood of getting
 - How to work with other people 
 
 ## Data sets used
-https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
-https://www.kaggle.com/fedesoriano/stroke-prediction-dataset 
+- https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
+- https://www.kaggle.com/fedesoriano/stroke-prediction-dataset 
 
 ## Other references
-https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
-https://www.cdc.gov/stroke/risk_factors.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fstroke%2Fconditions.htm
+- https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
+- https://www.cdc.gov/stroke/risk_factors.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fstroke%2Fconditions.htm
+- https://builtin.com/data-science/random-forest-algorithm
+- https://learn.g2.com/logistic-regression
+- https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
+- https://towardsdatascience.com/why-random-forest-is-my-favorite-machine-learning-model-b97651fa3706
+- https://scikit-learn.org/stable/modules/tree.html#
