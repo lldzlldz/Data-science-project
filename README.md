@@ -16,8 +16,15 @@ According to the World Health Organization, the world’s biggest killer is isch
 
 ![Leading causes of death globally](https://lh3.googleusercontent.com/tsJMRht1HYVqW7F7dweI8Yb97ZdMoGrRuNzkIKbZOZ2DOf80e7em-V3XkGgO0ufCLZVCTB04p0PJBq0c3JKc-N5WeOnPAgOL3_-tBrE54XQeoynI_U9svy1LLrIRZ6-_1dRUMOM)
 
+Please view the source code in order:
+1. [Heart Disease](https://github.com/lldzlldz/Data-science-project/blob/main/heart_disease_EDA.ipynb)
+2. [Stroke](https://github.com/lldzlldz/Data-science-project/blob/main/stroke_EDA.ipynb)
+
+
 ## Problem Definition
-Based on a given set of data, we would like to predict the likelihood of getting cardiovascular disease
+
+1. To see how we can prevent chronic diseases by investigating the factors that cause heart disease. 
+2. To investigate if the conditions causing heart diesase also causes other diseases
 
 ## Models Used
 1. Binary Classification
