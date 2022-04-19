@@ -16,15 +16,22 @@ According to the World Health Organization, the world’s biggest killer is isch
 
 ![Leading causes of death globally](https://lh3.googleusercontent.com/tsJMRht1HYVqW7F7dweI8Yb97ZdMoGrRuNzkIKbZOZ2DOf80e7em-V3XkGgO0ufCLZVCTB04p0PJBq0c3JKc-N5WeOnPAgOL3_-tBrE54XQeoynI_U9svy1LLrIRZ6-_1dRUMOM)
 
-Please view the source code in order:
-1. [Heart Disease](https://github.com/lldzlldz/Data-science-project/blob/main/heart_disease_EDA.ipynb)
-2. [Stroke](https://github.com/lldzlldz/Data-science-project/blob/main/stroke_EDA.ipynb)
 
 
 ## Problem Definition
 
 1. To see how we can prevent chronic diseases by investigating the factors that cause heart disease. 
 2. To investigate if the conditions causing heart diesase also causes other diseases
+
+1. [Heart Disease](https://github.com/lldzlldz/Data-science-project/blob/main/heart_disease_EDA.ipynb)
+Part 1 of our project involves finding the factors that causes heart disease. We first obtain a dataset of 70000 patients containing their medical information and whether they have heart disease.  
+Afterwards, we used 4 different classification models to predict whether a patient has heart disease.
+
+2. [Stroke](https://github.com/lldzlldz/Data-science-project/blob/main/stroke_EDA.ipynb)
+Part 2 of our project involves finding whether conditions causing heart disease also causes other diseases.  
+Our area of investigation will be on stroke, the second leading cause of death for chronic diseases. We do so by obtaining a dataset of 43400 patients, then using our model to predict whether their current health condition make them at risk of getting heart disease. We then attempt to find out whether there is any relationship between the two diseases. Subsequently, we attempt to find a causal relationship between the two.
+
+
 
 ## Models Used
 1. Binary Classification
@@ -56,6 +63,7 @@ Please view the source code in order:
     - We can use directed acrylic graphs to represent relationship between variables
     - A directed edge E(V, W) indicates that W is conditionally dependent on V
     - We can subsequently calcuate conditional probabilty on our model to determine whether there may be a causal relationship
+- Better ways to check which machine learning model is the most appropriate
 
 ## Data sets used
 - https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
