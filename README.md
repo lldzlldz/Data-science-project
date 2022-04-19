@@ -62,4 +62,11 @@ Based on a given set of data, we would like to predict the likelihood of getting
 - https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
 - https://towardsdatascience.com/why-random-forest-is-my-favorite-machine-learning-model-b97651fa3706
 - https://scikit-learn.org/stable/modules/tree.html#
-
+- https://www.health.harvard.edu/heart-health/throughout-life-heart-attacks-are-twice-as-common-in-men-than-women#:~:text=Researchers%20found%20that%20throughout%20life,mass%20index%2C%20and%20physical%20activity
+- https://www.hopkinsmedicine.org/health/wellness-and-prevention/weight-a-silent-heart-risk
+- https://ochsnerlg.org/about-us/news/how-obesity-affects-stroke-risk
+- https://ochsnerlg.org/about-us/news/how-obesity-affects-stroke-risk
+- https://worldpopulationreview.com/countries/life-expectancy
+- https://www.bloomberg.com/news/articles/2018-09-19/u-s-near-bottom-of-health-index-hong-kong-and-singapore-at-top
+- https://www.cdc.gov/nchs/data/nhsr/nhsr112.pdf
+- https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(18)30357-7/fulltext
