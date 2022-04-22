@@ -8,7 +8,7 @@ This is a mini-project for SC1015. We will be using data based on information ab
 ## Contributors
 
 - @Sele3 
-- @lldzlldz 
+- @lldzlldz (text stuff - conclusion/recommendations/machine learning justification/README file/formatting)
 - @Awon001
 
 ## Context
