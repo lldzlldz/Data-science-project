@@ -20,8 +20,8 @@ According to the World Health Organization, the world’s biggest killer is isch
 Our topic will be on promoting healthy living among individuals by analysing chronic diseases. In particular, these are our problem definitions
 
 ## Problem Definition
-1. To see how we can prevent chronic diseases by investigating the factors that cause heart disease. 
-2. To investigate if the conditions causing heart diesase also causes other diseases
+1. To see how we can prevent chronic diseases by investigating the factors that causes heart disease. 
+2. To investigate whether heart disease also causes other diseases
 
 
 ## Project Summary 
