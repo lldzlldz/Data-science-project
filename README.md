@@ -60,7 +60,7 @@ The 2nd half of our project involves finding whether heart disease also causes o
 - How to implement the different machine learning models(Binary Classification, Random Forest, Logistic Regression, XGBoost)
     - How to use hyperparameter tuning in XGBoost
     - Different machine learning models are better suited for different types of data
-    - Some machine learning models take very long(a few min) to learn compared to others(a few seconds)
+    - Some machine learning models take noticibly longer than others to learn 
 - Better ways to check which machine learning model is the most appropriate(besides using accuracy)
     - We used Precision, Accuracy, Recall, F1 Score
 - We learnt about hypothesis testing (Chi-squared test)
