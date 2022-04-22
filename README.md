@@ -90,3 +90,4 @@ The 2nd half of our project involves finding whether conditions causing heart di
 - https://www.cdc.gov/nchs/data/nhsr/nhsr112.pdf
 - https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(18)30357-7/fulltext
 - https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
+- https://www.healthxchange.sg/high-blood-pressure/prevention/high-blood-pressure-lower-without-medicine
